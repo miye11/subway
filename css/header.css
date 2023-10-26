@@ -31,12 +31,14 @@ header .wrap nav .menu {
   gap: 90px;
 }
 header .wrap nav .menu li {
-  
   font-size: 18px;
   font-weight: bold;
 }
 header .wrap nav .menu li a {
-  
+
+}
+header .wrap nav .menu li a:hover {
+  color: #009132;
 }
 header .wrap .wrap2 {
   position: relative;
@@ -151,4 +153,63 @@ header .wrap .wrap2 .member li .glo {
   border-radius: 30px;
   font-weight: bold;
   font-size: 15px;
+}
+/* gnb */
+header .gnb{
+  
+  margin-top: 30px;
+  border-top: 1px solid #999;
+  padding-top: 20px;
+}
+header .gnb .gnbback{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  width: 1902px;
+  height: 285px;
+  background-color: #fff;
+  gap: 40px;
+}
+header .gnb .gnbback .list{
+  
+}
+header .lnb{
+  
+  position: relative;
+}
+header .lnb ul{
+  
+}
+header .lnb:nth-child(1){
+  
+  left: 11px;
+}
+header .lnb:nth-child(2){
+  left: 37px;
+} 
+header .lnb:nth-child(3){
+  left: 31px;
+} 
+header .lnb:nth-child(4){
+  left: 3px;
+} 
+header .lnb:nth-child(5){
+  left: -31px;
+} 
+header .lnb:nth-child(6){
+  left: -17px;
+} 
+header .lnb ul li{
+  font-size: 15px;
+  line-height: 2.6;
+}
+header .lnb ul li a{
+  color: #656565;
+  font-weight: bold;
+}
+header .lnb ul li a:hover{
+  color: #009132;
+  text-decoration: underline; 
 }
