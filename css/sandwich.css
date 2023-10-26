@@ -1,0 +1,96 @@
+#sandwich {
+  width: 100%;
+}  
+#sandwich .wrap {
+  height: 550px;
+  padding-top: 100px;
+  width: 1300px; 
+} 
+#sandwich .wrap nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#sandwich .wrap nav h2 {
+  font-size: 45px;
+  font-weight: bold;
+  position: relative;
+  background: url(../img/ball.png) 0 12px no-repeat;
+  min-height: 60px;
+  padding: 18px 0 0 26px;
+}
+#sandwich .wrap nav h2::before{
+  content: "";
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+}
+#sandwich .wrap nav ul {
+  display: flex;
+  gap: 20px;
+}
+#sandwich .wrap nav ul li {
+  border-right: 1px solid #d5d5d5;
+}
+#sandwich .wrap nav ul li a {
+  color: #787878;
+  font-weight: bold;
+  padding-right: 19px;
+}
+#sandwich .wrap2 {
+  
+}
+#sandwich .wrap2 .idea {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+#sandwich .wrap2 .idea h3 {
+  text-align: center;
+}
+#sandwich .wrap2 .idea h3 p {
+  color: #999;
+  margin-top: 20px;
+  line-height: 1.4;
+  font-size: 13px;
+  font-weight: bold;
+} 
+#sandwich .wrap2 .idea figure{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#sandwich .wrap2 .idea figure img{ 
+  width: 250px;
+  height: 170px;
+}
+#sandwich .wrap2 .idea figure img:hover{
+  scale: 110% 110%;
+  margin-bottom: 20px;
+}
+#sandwich .wrap2 .idea figcaption{ 
+  font-size: 20px;
+  font-weight: bold;
+}
+#sandwich .slick-prev{
+  left: -80px;
+  border-left: 3px solid #999;
+  border-top: 3px solid #999;
+  color: black;
+  transform: rotate(315deg);
+  width: 15px;
+  height: 15px;
+}
+#sandwich .slick-next{
+  right: -80px;
+  border-left: 3px solid #999;
+  border-top: 3px solid #999;
+  color: black;
+  transform: rotate(135deg);
+  width: 15px;
+  height: 15px;
+}
+#sandwich .slick-dots li button{
+
+}
